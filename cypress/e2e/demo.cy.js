@@ -14,6 +14,7 @@ describe('Cypress E2E Testing Demo', () => {
   it('Assert Element', () => {
     cy.visit('https://example.com')
     cy.get('h1').should('be.visible')
+    cy.wait(2000)
     cy.get('p').should('be.visible')
   })
 })
