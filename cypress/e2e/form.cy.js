@@ -1,7 +1,9 @@
-describe('Gorms, Buttons & Checkbox', () => {
+
+
+describe('Forms, Buttons & Checkbox', () => {
   it('Submit And Assert Form', () => {
     
-    //Variabmes with Data
+    //Variables with Data
     const name = 'Kay'
     const drink = 'Water'
     const color = 'Red'
