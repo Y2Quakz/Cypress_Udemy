@@ -11,5 +11,7 @@ describe('Cypress Screenshot', () => {
   it('Single Element Screenschot', () => {
     cy.visit(URLsite)
     cy.get('h1').screenshot({ overwrite: true })
+
+    cy.get('h1').should('have.length', 1)
   })
 })
